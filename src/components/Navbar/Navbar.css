@@ -14,15 +14,18 @@
   }
   
   .navbar_a_button{
-	color:white;
+	color:white !important;
 	padding:10px;
 	background-color: none;
 	background: none;
 	border:none;
+	margin: 5px;
+    font-size: 18px;
+	text-decoration: none;
   }
   
   .navbar_a_button:hover{
-	color:rgb(236, 234, 234);
+	color:rgb(236, 234, 234) !important;
   }
   
   .navbarDouble{
@@ -41,6 +44,13 @@
 	max-width:100%;
 	min-width:100%;
 	display: flex;
-justify-content:center;
-align-items: center;
+	justify-content:center;
+	align-items: center;
+  }
+
+  .divLogin-Signup{
+	  display:flex !important;
+	  max-width:300px;
+	  min-width:300px;
+	  justify-content: right;
   }
